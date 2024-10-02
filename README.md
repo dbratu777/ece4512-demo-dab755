@@ -21,3 +21,9 @@ Additionally, this assignment requires that a 3-5 sentance student bio is includ
 ## Bio
 
 My name is Daniel Bratu; I am a Computer Engineering student in the Electrical and Computer Engineering Department of the Bagely College of Engineering at Mississippi State University. From May 2023 to August 2024, I worked with [Camgian](https://www.camgian.com/), a commerical and defense oriented software solution company, as a software engineering student worker. In my free time, I enjoy tinkering with various OSes to experience new or unusual workflows; I also play a lot of FPS and traditional dungeon-crawler games.
+
+## Resources
+
+![Marathon Logo](./resources/marathon.png)  
+
+The Marathon Logo, included as a resource utilized here and in my resume, was ripped from the wonderful [Marathon Story Page](https://marathon.bungie.org/story/).
