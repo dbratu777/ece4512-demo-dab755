@@ -1,1 +1,162 @@
-placeholder
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name - Location</title>
+    <style>
+        body {
+            font-family: Arial;
+            line-height: 1.6;
+            text-align: left;
+        }
+        .container {
+            width: 40vw;
+            min-width: 720px;
+            margin: 0 auto;
+            padding: 5px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            position: relative;
+        }
+        .header img {
+            width: 50px;
+            height: 50px;
+        }
+        .header-text {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .name {
+            font-size: 1.4em;
+            font-weight: bold;
+            text-align: center;
+        }
+        .location {
+            /* font-size: 1.2em; */
+            font-weight: bold;
+            text-align: center;
+        }
+        .title-year {
+            display: flex;
+            justify-content: space-between;
+        }
+        div {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="./resources/marathon.png" alt="Required Image">
+            <div class="header-text">
+                <div class="name"> Daniel Bratu </div>
+                <div class="location"> Starkville, MS. </div>
+            </div>
+        </div>
+        <hr>
+        <div>
+            &nbsp;&nbsp;&nbsp;&nbsp; <em> Undergraduate Computer Engineering Student - Member of Tau Beta Pi - Looking for Full-Time Employment in Software Development – Proficient in/with C, C++, CMake, Shell Scripting, GNU Make, and Linux/Windows. </em>
+        </div>
+        <br>
+        <div>
+            <strong> EDUCATION </strong>
+            <ul>
+                <li> 
+                    <div class="title-year"> 
+                        <div> Mississippi State University - Mississippi State, MS. </div>
+                        <div> August 2020 - May 2025 </div>
+                    </div>
+                    <em> Bachelor of Science in Computer Engineering with Minor in Mathematics </em>
+                    <ul>
+                        <li>Cumulative GPA: 3.95/4.00</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <strong> EXPERIENCE </strong>
+            <ul>
+                <li> 
+                    <div class="title-year">
+                        <div> Camgian (CO-OP) - Starkville, MS. </div>
+                        <div> May 2023 - August 2024 </div>
+                    </div>
+                    <em> Software Engineering Intern </em>
+                    <ul>
+                        <li> 
+                            Developed, Maintained, and Tested C++ Libraries, Bash Shell Scripts, and Docker/Redis Networks primarily in Ubuntu via WSL (Windows Subsystem for Linux)
+                        </li>
+                        <li>
+                            Worked with Proprietary Simulation Suite using In-House Scripting Language; Defined UAS (Unmanned Aircraft Systems) and Effector Models with their respective Behaviors; Created Test Scenarios using Models for External Software Component Validation
+                        </li>
+                        <li>
+                            Developed Build Infrastructure (Compilation, Packaging (DEB Format), and Installation Processes) for Multi-Component Software Programs using CMake and GNU Make
+                        </li>
+                        <li>
+                            Developed Python Script for Quantifying Code Reuse in Python-Based Repositories
+                        </li>
+                        <li>
+                            Awarded Climber Clip (Peer-Nominated Award for Significant Contribution to Program Milestones) for Work Completed in Q4 2023
+                        </li>
+                    </ul>
+                </li>
+                <br>
+                <li> 
+                    <div class="title-year">
+                        <div> Math Domain (Work Study) - Mississippi State, MS. </div>
+                        <div> August 2022 - May 2023 </div>
+                    </div>
+                    <em> Lab Assistant/Tutor </em>
+                    <ul>
+                        <li> 
+                            Assistant in a College Algebra CO-REQ Lab of 20+ Students
+                        </li>
+                        <li>
+                            General Student Body Tutoring/Proctoring for Intermediate Algebra, College Algebra, College Trigonometry, Business Calculus
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <strong> SKILLS/FAMILIAR TOOLS </strong>
+            <ul>
+                <li>
+                    Software Development - GIT, GNU Debugger, Google Test (Unit Testing), Docker, Redis, C, C++, Bash, CMake, GNU Make
+                </li>
+                <li>
+                    Documentation (High and Low Level) - Markdown, HTML, DOCX
+                </li>
+                <li>
+                    Troubleshooting and Problem Solving
+                </li>
+                <li>
+                    Communication and Organization
+                </li>
+            </ul>
+        </div>
+        <div>
+            <strong> INTERESTS </strong>
+            <ul>
+                <li>
+                    Video Game History - First-Person Shooters, Traditional Dungeon-Crawlers, and RPGs 
+                </li>
+                <li>
+                    Linux/BSD - OS Configuration and General Experimentation with Workflow Philosophies
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
